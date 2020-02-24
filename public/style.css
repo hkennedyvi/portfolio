@@ -1,0 +1,110 @@
+html, body {
+    background-color: #FFE4B5;   
+}
+
+#intro-header {
+    margin: 100px 0;
+    background-color: #FFE4B5;
+    color: indianred;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bio-box {
+    display: inline-flex;
+    border: 1px indianred solid;
+    padding: 20px;
+}
+
+.bio-text {
+    padding-left: 20px;
+}
+
+.bio-header {
+    font-weight: bolder;
+}
+
+.hands {
+    font-size: 200px;
+}
+
+
+/* PORTFOLIO PAGE */
+
+.portfolio-row {
+    background-color: #FFE4B5;
+    padding: 25px 0 25px 100px;
+}
+
+.portfolio-btn, #contact-btn {
+    background-color: #FFE4B5;
+    color: indianred;
+    border-color: indianred;
+}
+
+.portfolio-btn:hover {
+    background-color: indianred;
+    color: white;
+  }
+
+.card {
+    display: none;
+    background-color: #FFE4B5;
+    color: indianred;
+    font-family: 'Oswald', sans-serif;
+    border-color: #FFE4B5;
+}
+
+.d-flex {
+    background-color: #FFE4B5;
+}
+
+#my-spinner {
+    background-color: #FFE4B5;
+    color: indianred;
+    margin-top: 400px;  
+}
+
+/* CONTACT PAGE */
+
+#contact-section {
+    background-color: #FFE4B5;
+    color: indianred;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 50%;
+}
+
+.contact-block {
+    display: inline-flex;
+}
+
+a {
+    color: indianred;
+}
+
+.social-box {
+    padding-left: 180px;
+}
+
+.social-icon {
+    font-size: 75px;
+    margin-left: 25px;
+}
+
+.social-icon:hover {
+    color: white;
+}
+
+
+label {
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+input, textarea {
+    background-color: #FFE4B5;
+    border-color: indianred;
+    width: 90%;
+}
