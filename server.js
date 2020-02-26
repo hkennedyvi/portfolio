@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 const exphbs = require("express-handlebars");
 const path = require("path");
 
+const PORT = process.env.PORT || 8000;
+
 const app = express();
 
 // View engine setup
@@ -83,5 +85,5 @@ app.post("/send", (req, res) => {
     res.render("contact", { msg: `Thank you ${req.body.name}, your message has been sent` });
 });
 
-app.listen(3000, () => console.log("server started..."));
+app.listen(PORT, () => console.log("server started..."));
 
