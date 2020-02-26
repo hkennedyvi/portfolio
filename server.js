@@ -71,6 +71,7 @@ app.post("/send", (req, res) => {
     transporter.sendMail(message, (err, info) => {
         if (err) {
             console.log("Error occured. " + err.message);
+            res.sendStatus(500);
             return process.exit(1);
         }
         console.log('Message sent: %s', info.messageId);
